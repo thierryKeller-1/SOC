@@ -1,0 +1,18 @@
+https://soc-rugby.com/calendrier-resultats/
+
+alors on est besoin que vous faites du web scrapping sur le lien envoyé de la part de Sabri, 
+on dois récupérer les données de chaque match 
+    - le nom du match
+    - équipe1
+    - équipe 2
+    - date et heure du match
+    - address
+    - logo url
+
+vous devez détecté le click sur la tab calendrier
+
+Regles:
+il faut que les données post dans un api que je récupère directement la liste des matchs ordonné selon leur date et heures
+le besoin finale c'est un api qui retourne les matchs suivants
+pouvez vous suivre ce model svp MatchModel( id: int, name: str, team1: str, team2:str, date: dateAndTime, address: str, logo:str)
+sinon pour le nom du match si il n'existe pas, il peut être construit à partir des deux noms d'équipes (équipeA - équipeB)

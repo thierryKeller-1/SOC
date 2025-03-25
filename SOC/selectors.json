@@ -1,0 +1,86 @@
+{
+    "container": [
+        {
+            "by_tag_only": false,
+            "tag": "div",
+            "attr_key": "id",
+            "attr_value": "simple-tabpanel-1"
+        }
+    ],
+    "datas": [
+        {
+            "by_tag_only": false,
+            "tag": "div",
+            "attr_key": "class",
+            "attr_value": "MuiBox-root css-vt7you"
+        }
+    ],
+    "match_name": [
+        {
+            "by_tag_only": false,
+            "tag": "p",
+            "attr_key": "class",
+            "attr_value": "MuiTypography-root MuiTypography-h4 css-5k0na9",
+            "target": "text"
+        }
+    ],
+    "adress": [
+        {
+            "by_tag_only": false,
+            "tag": "div",
+            "attr_key": "class",
+            "attr_value":"footer-text",
+            "target": "text"
+        }
+    ],
+    "team1": [
+        {
+            "by_tag_only": false,
+            "tag": "div",
+            "attr_key": "class",
+            "attr_value": "event-item_team team-name team-name-away bold",
+            "target": "text"
+        }
+    ],
+    "team2": [
+        {
+            "by_tag_only": false,
+            "tag": "div",
+            "attr_key": "class",
+            "attr_value": "event-item_team team-name",
+            "target": "text"
+        }
+    ],
+    "date": [
+        {
+            "by_tag_only": false,
+            "tag": "div",
+            "attr_key": "class",
+            "attr_value": "date",
+            "target": "child",
+            "child": {
+                "by_tag_only": true,
+                "tag":"div",
+                "multiple": true,
+                "index": 0,
+                "target": "text"
+            }
+        }
+    ],
+    "time": [
+        {
+            "by_tag_only": false,
+            "tag": "div",
+            "attr_key": "class",
+            "attr_value": "date",
+            "target": "child",
+            "child": {
+                "by_tag_only": true,
+                "tag":"div",
+                "multiple": true,
+                "index": -1,
+                "target": "text"
+            }
+        }
+    ]
+}

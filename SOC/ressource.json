@@ -1,0 +1,29 @@
+[
+    {
+        "date": "2025-03-28 18:30",
+        "name": "SOC Rugby Chambéry - RC Hyères Carqueiranne la Crau",
+        "type": "match",
+        "zipcode": "",
+        "city": "",
+        "gps": "",
+        "adress": "Nationale - CHAMBERY SAVOIE STADIUM 73000 Chambéry"
+    },
+    {
+        "date": "2025-04-12 14:00",
+        "name": "Stade Langonnais - SOC Rugby Chambéry",
+        "type": "match",
+        "zipcode": "",
+        "city": "",
+        "gps": "",
+        "adress": "Nationale - STADE COMBERLIN 33210 Langon"
+    },
+    {
+        "date": "2025-04-26 15:00",
+        "name": "Olympique Marcquois Rugby - SOC Rugby Chambéry",
+        "type": "match",
+        "zipcode": "",
+        "city": "",
+        "gps": "",
+        "adress": "Nationale - STADIUM LILLE METROPOLE - TERRAIN HONNEUR"
+    }
+]

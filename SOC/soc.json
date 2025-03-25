@@ -1,0 +1,182 @@
+{
+    "data": {
+        "competitions_event_detail_by_team_id": [
+            {
+                "id": 11786501,
+                "status": "to_come",
+                "date": "2025-03-21",
+                "time": "2025-03-21T18:30:00+00:00",
+                "url": "/rugby/match-soc-rugby-chambery-stado-tarbes-pyrenees-rugby-5q8t?e=11786501",
+                "teams": [
+                    {
+                        "id": 23568264,
+                        "url": "/rugby/clubs/stado-tarbes-pyrenees-rugby-2klp/1-12mm",
+                        "data": null,
+                        "logo": "https://v1.scorenco.com/media/club_pictures/2019/03/22/stado-tarbes-pyrenees-rugby-b47f4320dff9438091ed9451cac3bc56.jpg",
+                        "role": "home",
+                        "score": null,
+                        "club_id": 120013,
+                        "team_id": 50062,
+                        "name_in_club": "SENIOR M1",
+                        "is_team_of_club": 0,
+                        "team_in_season_id": 567851,
+                        "name_in_competition": "Stado Tarbes Pyrénées Rugby"
+                    },
+                    {
+                        "id": 23568265,
+                        "url": "/rugby/clubs/soc-rugby-chambery-2kmk/1-12mp",
+                        "data": null,
+                        "logo": "https://v1.scorenco.com/media/club_pictures/2019/09/07/soc-rugby-a42e28803d3c4645808c3233f3303bf1.jpg",
+                        "role": "away",
+                        "score": null,
+                        "club_id": 120044,
+                        "team_id": 50065,
+                        "name_in_club": "SENIOR M1",
+                        "is_team_of_club": 1,
+                        "team_in_season_id": 544655,
+                        "name_in_competition": "SOC Rugby Chambéry"
+                    }
+                ],
+                "level_name": "Nationale",
+                "place": {
+                    "id": 194032,
+                    "name": "STADE MAURICE TRÉLUT - TERRAIN HONNEUR 65000 Tarbes",
+                    "__typename": "places_place"
+                },
+                "__typename": "competitions_event_detail"
+            },
+            {
+                "id": 12261303,
+                "status": "to_come",
+                "date": "2025-03-28",
+                "time": "2025-03-28T18:30:00+00:00",
+                "url": "/rugby/match-rc-hyeres-carqueiranne-la-crau-soc-rugby-chambery-5q9v?e=12261303",
+                "teams": [
+                    {
+                        "id": 24517538,
+                        "url": "/rugby/clubs/soc-rugby-chambery-2kmk/1-12mp",
+                        "data": null,
+                        "logo": "https://v1.scorenco.com/media/club_pictures/2019/09/07/soc-rugby-a42e28803d3c4645808c3233f3303bf1.jpg",
+                        "role": "home",
+                        "score": null,
+                        "club_id": 120044,
+                        "team_id": 50065,
+                        "name_in_club": "SENIOR M1",
+                        "is_team_of_club": 1,
+                        "team_in_season_id": 544655,
+                        "name_in_competition": "SOC Rugby Chambéry"
+                    },
+                    {
+                        "id": 24517539,
+                        "url": "/rugby/clubs/rc-hyeres-carqueiranne-la-crau-2kbf/1-11qj",
+                        "data": null,
+                        "logo": "https://v1.scorenco.com/media/club_pictures/2016/03/31/rc-hyeres-carqueiranne-la-crau-0eabd3110d0e49a4ab72c30f5b3b248e",
+                        "role": "away",
+                        "score": null,
+                        "club_id": 119643,
+                        "team_id": 48907,
+                        "name_in_club": "SENIOR M1",
+                        "is_team_of_club": 0,
+                        "team_in_season_id": 567849,
+                        "name_in_competition": "RC Hyères Carqueiranne la Crau"
+                    }
+                ],
+                "level_name": "Nationale",
+                "place": {
+                    "id": 15261570,
+                    "name": "CHAMBERY SAVOIE STADIUM 73000 Chambéry",
+                    "__typename": "places_place"
+                },
+                "__typename": "competitions_event_detail"
+            },
+            {
+                "id": 11786520,
+                "status": "to_come",
+                "date": "2025-04-12",
+                "time": "2025-04-12T14:00:00+00:00",
+                "url": "/rugby/match-soc-rugby-chambery-stade-langonnais-z1ak?e=11786520",
+                "teams": [
+                    {
+                        "id": 23568302,
+                        "url": "/rugby/clubs/stade-langonnais-2gct/1-11q8",
+                        "data": null,
+                        "logo": "https://v1.scorenco.com/media/club_pictures/2014/10/29/stade-langonnais-815ce06625e84d7593b038b495b818c0",
+                        "role": "home",
+                        "score": null,
+                        "club_id": 114509,
+                        "team_id": 48896,
+                        "name_in_club": "SENIOR M1",
+                        "is_team_of_club": 0,
+                        "team_in_season_id": 567846,
+                        "name_in_competition": "Stade Langonnais"
+                    },
+                    {
+                        "id": 23568303,
+                        "url": "/rugby/clubs/soc-rugby-chambery-2kmk/1-12mp",
+                        "data": null,
+                        "logo": "https://v1.scorenco.com/media/club_pictures/2019/09/07/soc-rugby-a42e28803d3c4645808c3233f3303bf1.jpg",
+                        "role": "away",
+                        "score": null,
+                        "club_id": 120044,
+                        "team_id": 50065,
+                        "name_in_club": "SENIOR M1",
+                        "is_team_of_club": 1,
+                        "team_in_season_id": 544655,
+                        "name_in_competition": "SOC Rugby Chambéry"
+                    }
+                ],
+                "level_name": "Nationale",
+                "place": {
+                    "id": 383,
+                    "name": "STADE COMBERLIN 33210 Langon",
+                    "__typename": "places_place"
+                },
+                "__typename": "competitions_event_detail"
+            },
+            {
+                "id": 11786521,
+                "status": "to_come",
+                "date": "2025-04-26",
+                "time": "2025-04-26T15:00:00+00:00",
+                "url": "/rugby/match-olympique-marcquois-rugby-soc-rugby-chambery-z1al?e=11786521",
+                "teams": [
+                    {
+                        "id": 23568304,
+                        "url": "/rugby/clubs/olympique-marcquois-rugby-2kbb/1-11qe",
+                        "data": null,
+                        "logo": "https://v1.scorenco.com/media/club_pictures/2021/07/01/olympique-marcquois-rugby-79ee844db09046359efd20e12f6034c1",
+                        "role": "home",
+                        "score": null,
+                        "club_id": 119639,
+                        "team_id": 48902,
+                        "name_in_club": "SENIOR M1",
+                        "is_team_of_club": 0,
+                        "team_in_season_id": 567847,
+                        "name_in_competition": "Olympique Marcquois Rugby"
+                    },
+                    {
+                        "id": 23568305,
+                        "url": "/rugby/clubs/soc-rugby-chambery-2kmk/1-12mp",
+                        "data": null,
+                        "logo": "https://v1.scorenco.com/media/club_pictures/2019/09/07/soc-rugby-a42e28803d3c4645808c3233f3303bf1.jpg",
+                        "role": "away",
+                        "score": null,
+                        "club_id": 120044,
+                        "team_id": 50065,
+                        "name_in_club": "SENIOR M1",
+                        "is_team_of_club": 1,
+                        "team_in_season_id": 544655,
+                        "name_in_competition": "SOC Rugby Chambéry"
+                    }
+                ],
+                "level_name": "Nationale",
+                "place": {
+                    "id": 190461,
+                    "name": "STADIUM LILLE METROPOLE - TERRAIN HONNEUR",
+                    "__typename": "places_place"
+                },
+                "__typename": "competitions_event_detail"
+            }
+        ]
+    }
+}

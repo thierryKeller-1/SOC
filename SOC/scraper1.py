@@ -1,6 +1,8 @@
 import os 
 import json
+import time
 import requests
+import constants as ct
 import urllib3
 from urllib3 import request
 from datetime import datetime
@@ -12,10 +14,7 @@ from toolkits.bs4_extension import (
                         get_element_by_locator,
                         get_all_element_by_locator)
 from toolkits.loggers import show_message
-from toolkits.file_manager import get_json_file_content
-
-
-
+from toolkits.file_manager import get_json_file_content, save_json_data
 
 
 months_fr_short = {
@@ -80,10 +79,16 @@ class PageDataScraper(object):
     def post_data(self) -> None:
             show_message("INFO", f"post data to API")
             api_url_dev = os.environ.get('API_URL_DEV')
-            endpoint = api_url_dev + "events/add/multiple"
+            api_url_prod = os.environ.get('API_URL_PROD')
+            # endpoint = api_url_prod + "events/add/multiple"
+            endpoint = api_url_prod + "events/add/multiple"
             api_token_dev = os.environ.get('API_TOKEN_DEV')
+            api_token_prod = os.environ.get('API_TOKEN_PROD')
             try:
                 encode_data = json.dumps(self.cleaned_data)
+
+                save_json_data(file_path=f"{ct.APPS_FOLDER_PATH}/demo.json", data= self.cleaned_data)
+                
                 req = urllib3.PoolManager()
                 res = req.request(  
                     'POST',  
@@ -91,7 +96,7 @@ class PageDataScraper(object):
                     body=encode_data,  
                     headers={
                         'Content-Type': 'application/json',
-                        "Authorization" : api_token_dev
+                        "Authorization" : api_token_prod
                         }  
                 ) 
 
@@ -110,16 +115,28 @@ class PageDataScraper(object):
 
                 print(f"Server response {res.status}")
 
-                # show_message("INFO", encode_data)
+                show_message("INFO", encode_data)
             except Exception as e:
                 print(e)
 
 def scrap_soc_task(url:str) -> None:
-    selectors = get_json_file_content("./SOC/selectors.json")
-    driver = Driver(arguments=['--start-maximized'])
+    selectors = get_json_file_content(f"{ct.APPS_FOLDER_PATH}/selectors.json")
+    driver = Driver(
+                    headless=False,
+                    arguments=[
+                        "--start-fullscreen",
+                        "--start-maximized"
+                    ])
     driver.get(url, wait=5)
     show_message("INFO", f"Navigate {url}")
-    driver.click_element_containing_text("Calendrier")
+    try:
+        while not bool(driver.get_all_elements_with_exact_text("Calendrier")):
+            time.sleep(2)
+            if not bool(driver.get_all_elements_with_exact_text("Calendrier")):
+                driver.reload()
+        driver.click_element_containing_text("Calendrier")
+    except Exception as e:
+        print(e)
     driver.long_random_sleep()
     page_data = {}
     page_data['web_page'] = soupify(driver.page_html)

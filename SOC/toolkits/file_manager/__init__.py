@@ -98,7 +98,10 @@ def save_json_data(file_path:str, data:object, key:str=None) -> None:
             create_or_update_json_file(file_path, file_content)
             return
     else:
-        file_content += data
+        if bool(file_content):
+            file_content += data
+        else:
+            file_content = data
         create_or_update_json_file(file_path, file_content)
 
 # def check_plateform(plateform:str) -> None:
